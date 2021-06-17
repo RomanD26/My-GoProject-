@@ -1,0 +1,138 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.body-bg {
+  background-image: url("../images/111.jpg");
+  background-size: cover;
+}
+
+.color-grey {
+  color: #4b4b4b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+article {
+  padding: 20px;
+}
+
+.cv-heder,
+.profile,
+.experiense,
+.compani-name {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.cv {
+  margin-top: 50px;
+  border: 1px solid #4b4b4b;
+  box-shadow: 1px 1px 10px #000;
+}
+
+.cv-left {
+  background: #4b4b4b;
+  min-height: 30vh;
+  color: #fff;
+}
+
+.cv-right {
+  background: #fff;
+  min-height: 30vh;
+  color: #131313;
+}
+
+.cv-left a {
+  color: #fff;
+}
+
+.cv-left a:hover {
+  text-decoration: none;
+}
+
+.cv-left ul {
+  line-height: 170%;
+  padding-left: 30px;
+}
+
+.cv-left .contacts-block {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.cv-left .address {
+  font-style: italic;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.company-name i {
+  font-size: 0.8rem;
+  font-family: Arial, sans-serif;
+  text-transform: none;
+}
+
+.job-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.lines {
+  overflow: hidden;
+}
+
+.lines::before,
+.lines::after {
+  content: "";
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3px;
+  background: #4b4b4b;
+  border: 1px solid #fff;
+  vertical-align: middle;
+}
+
+.lines::before {
+  margin-left: -100%;
+}
+
+.lines::after {
+  margin-right: -100%;
+}
+
+@media (max-width: 991.98px) {
+  .cv h1,
+  .cv h2,
+  .cv h3,
+  .cv h3 {
+    font-size: 1.3rem;
+  }
+  .cv-left ul {
+    line-height: 150%;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cv {
+    margin-top: 0;
+  }
+  .foto-block img {
+    display: block;
+    max-width: 50%;
+    margin: 20px auto;
+  }
+}

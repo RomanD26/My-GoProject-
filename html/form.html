@@ -1,0 +1,26 @@
+{{ define "form" }}
+
+{{ template "header" }}
+
+<div class="cover-heading">
+    <h3 class="container-fluid">Ввод данных для регистрации</h3>
+</div>
+
+
+<form action="/regSql" method="post">
+    <input type="text"
+            name="name"
+            id="name"
+            placeholder="Введите имя"
+            class="form-control" /><br />
+    <input type="age"
+            name="age"
+            id="age"
+            placeholder="Введите свой возраст"
+            class="form-control" /><br />
+    <button class="btn btn-warning">Отправить</button>
+</form>
+
+{{ template "footer" }}
+
+{{ end }}
