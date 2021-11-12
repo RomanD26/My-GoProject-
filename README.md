@@ -30,5 +30,6 @@
 
 - Go 1.16.5
 - JavaScript
+- HTML, CSS
 - Bootstrap 4
 - MySQL
