@@ -33,3 +33,7 @@
 - HTML, CSS
 - Bootstrap 4
 - MySQL
+
+#### Автор
+
+- **Dikiy Roman** - _Pet Project_
